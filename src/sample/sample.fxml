@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+      prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.192-ea" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="sample.Controller">
+    <TableView editable="true" prefHeight="200.0" prefWidth="200.0" fx:id="table">
+        <columns>
+            <TableColumn prefWidth="75.0" text="C1" fx:id="column1"/>
+            <TableColumn prefWidth="75.0" text="C2" fx:id="column2"/>
+            <TableColumn prefWidth="75.0" text="C3" fx:id="column3"/>
+        </columns>
+        <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+        </columnResizePolicy>
+    </TableView>
+</VBox>
